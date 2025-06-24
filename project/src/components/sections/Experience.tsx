@@ -1,13 +1,36 @@
-import { Calendar, MapPin, GraduationCap, Code, BookOpen } from 'lucide-react';
+import { Calendar, GraduationCap, Code, BookOpen, Smartphone } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const experiences = [
   {
+    title: "Mind Journal アプリ開発",
+    period: "2025年6月 - 現在",
+    description: [
+      "マインドフルネス日記アプリの個人開発プロジェクト",
+      "React 18・TypeScript・Viteを使用したフロントエンド構築",
+      "Supabase・PostgreSQLによるバックエンド・データベース設計",
+      "感情トレンド分析・カレンダー機能・認証システムの実装"
+    ],
+    technologies: ["React", "TypeScript", "Vite", "Supabase", "PostgreSQL", "Tailwind CSS"],
+    type: "学習",
+    icon: Smartphone
+  },
+  {
+    title: "Web開発学習開始",
+    period: "2025年5月 - 現在",
+    description: [
+      "HTML/CSS/JavaScript,Pythonの基礎から学習開始",
+      "Django,FastAPIを使用した簡単なWebアプリケーションの開発",
+      "ブログアプリや会議室予約アプリの開発"
+    ],
+    technologies: ["HTML/CSS", "JavaScript", "Python", "Django", "FastAPI", "Git"],
+    type: "学習",
+    icon: Code
+  },
+  {
     title: "大学院進学",
-    company: "名古屋工業大学大学院 工学専攻 知能情報プログラム",
-    period: "2024年4月 - 現在",
-    location: "名古屋",
+    period: "2025年4月 - 現在",
     description: [
       "修士1年として知能情報分野の研究に従事",
       "機械学習・データ解析の理論と実践を学習",
@@ -19,32 +42,15 @@ const experiences = [
     icon: GraduationCap
   },
   {
-    title: "Web開発学習開始",
-    company: "個人学習",
-    period: "2025年5月 - 現在",
-    location: "名古屋",
-    description: [
-      "HTML/CSS/JavaScriptの基礎から学習開始",
-      "React・TypeScriptを使用したモダンWeb開発の習得",
-      "GitHubを活用した開発フローの実践",
-      "実際にプロダクトを作りながらの実践的学習"
-    ],
-    technologies: ["HTML/CSS", "JavaScript", "React", "TypeScript", "Git"],
-    type: "学習",
-    icon: Code
-  },
-  {
     title: "学部卒業",
-    company: "名古屋工業大学 情報工学科",
-    period: "2020年4月 - 2024年3月",
-    location: "名古屋",
+    period: "2021年4月 - 2025年3月",
     description: [
-      "情報工学の基礎理論を体系的に学習",
-      "プログラミング基礎（C言語、Java等）の習得",
-      "アルゴリズムとデータ構造の理解",
-      "卒業研究を通じた研究活動の経験"
+      "プログラミング基礎（C,C++,Python等）の習得",
+      "卒業研究を通じた研究活動の経験",
+      "学術論文の読解と研究手法の習得",
+
     ],
-    technologies: ["C言語", "Java", "アルゴリズム", "データ構造"],
+    technologies: ["C言語", "Python", "機械学習", "ロボットの経路計画", "ロボットの制御"],
     type: "学業",
     icon: BookOpen
   }
@@ -56,7 +62,7 @@ export function Experience() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
-            学歴 & 学習歴
+            経歴
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             これまでの学習経験と現在取り組んでいる活動
@@ -86,18 +92,11 @@ export function Experience() {
                         {experience.type}
                       </Badge>
                     </div>
-                    <p className="text-lg font-medium text-slate-700 mb-2">
-                      {experience.company}
-                    </p>
                   </div>
                   <div className="flex flex-col md:items-end mt-2 md:mt-0">
                     <div className="flex items-center text-slate-600 mb-1">
                       <Calendar className="h-4 w-4 mr-2" />
                       <span className="text-sm font-medium">{experience.period}</span>
-                    </div>
-                    <div className="flex items-center text-slate-600">
-                      <MapPin className="h-4 w-4 mr-2" />
-                      <span className="text-sm">{experience.location}</span>
                     </div>
                   </div>
                 </div>
@@ -127,7 +126,7 @@ export function Experience() {
           <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-slate-800 mb-4">今後の目標</h3>
             <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              2025年修了予定で、現在は就職活動と並行してWeb開発スキルの向上に取り組んでいます。
+              2027年修了予定で、現在は就職活動と並行してWeb開発スキルの向上に取り組んでいます。
               自社開発を行う企業で、ユーザーに価値を提供するプロダクト開発に携わることを目標としています。
             </p>
           </div>

@@ -1,4 +1,4 @@
-import { Mail, Github, Linkedin, MapPin, GraduationCap } from 'lucide-react';
+import { Mail, Github } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -6,8 +6,8 @@ const contactMethods = [
   {
     icon: Mail,
     label: "メール",
-    value: "raisei.ito@example.com",
-    href: "mailto:raisei.ito@example.com",
+    value: "cok14667@ict.nitech.ac.jp",
+    href: "mailto:cok14667@ict.nitech.ac.jp",
     color: "from-red-500 to-pink-500"
   },
   {
@@ -16,20 +16,6 @@ const contactMethods = [
     value: "github.com/Raisei-Ito",
     href: "https://github.com/Raisei-Ito",
     color: "from-gray-700 to-gray-900"
-  },
-  {
-    icon: Linkedin,
-    label: "LinkedIn",
-    value: "linkedin.com/in/raisei-ito",
-    href: "https://linkedin.com/in/raisei-ito",
-    color: "from-blue-600 to-blue-800"
-  },
-  {
-    icon: GraduationCap,
-    label: "大学",
-    value: "名古屋工業大学大学院",
-    href: "https://www.nitech.ac.jp/",
-    color: "from-green-500 to-emerald-600"
   }
 ];
 
@@ -72,25 +58,14 @@ export function Contact() {
         </div>
 
         <div className="text-center">
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20 inline-block">
-            <CardContent className="p-6">
-              <div className="flex items-center justify-center space-x-2 mb-4">
-                <MapPin className="h-5 w-5 text-blue-400" />
-                <span className="text-slate-300">現在地：名古屋</span>
-              </div>
-              <p className="text-slate-300 mb-4">
-                2025年3月修了予定・フルタイム勤務可能
-              </p>
-              <Button 
-                size="lg" 
-                className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
-                onClick={() => window.location.href = 'mailto:raisei.ito@example.com'}
-              >
-                <Mail className="mr-2 h-5 w-5" />
-                メールを送る
-              </Button>
-            </CardContent>
-          </Card>
+          <Button 
+            size="lg" 
+            className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
+            onClick={() => window.location.href = 'mailto:cok14667@ict.nitech.ac.jp'}
+          >
+            <Mail className="mr-2 h-5 w-5" />
+            メールを送る
+          </Button>
         </div>
       </div>
     </section>

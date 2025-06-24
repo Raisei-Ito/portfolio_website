@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 const navItems = [
   { label: 'ホーム', href: '#home' },
   { label: 'スキル', href: '#skills' },
-  { label: 'ポートフォリオ', href: '#portfolio' },
+  { label: '製作実績', href: '#portfolio' },
   { label: '経歴', href: '#experience' },
   { label: 'お問い合わせ', href: '#contact' },
 ];

@@ -5,37 +5,37 @@ import { Badge } from '@/components/ui/badge';
 
 const projects = [
   {
-    title: "学習記録アプリ",
-    description: "日々の学習内容を記録・管理するWebアプリケーション。学習時間の可視化と目標設定機能を実装。",
-    image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["React", "JavaScript", "CSS", "Local Storage"],
+    title: "Mind Journal",
+    description: "AIによるフィードバック付き日記アプリ。感情トレンド分析、カレンダー機能、認証システムを実装したReact+Supabaseアプリケーション",
+    image: "https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["React", "TypeScript", "Vite", "Supabase", "Tailwind CSS", "Gemini API"],
     githubUrl: "https://github.com/Raisei-Ito",
     status: "開発中",
     featured: true
   },
   {
     title: "ポートフォリオサイト",
-    description: "このサイト自体！React + TypeScript + Tailwind CSSで構築した就活用ポートフォリオサイト。",
-    image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+    description: "このサイト自体！React + TypeScript + Tailwind CSSで構築した就活用ポートフォリオサイト",
+    image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
     githubUrl: "https://github.com/Raisei-Ito",
     status: "完成",
     featured: true
   },
   {
-    title: "ToDoアプリ",
-    description: "シンプルなタスク管理アプリ。CRUD操作の基本を学習するために作成した初期プロジェクト。",
-    image: "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    title: "ブログアプリ",
+    description: "Djangoを使用したブログアプリケーション。CRUD操作の基本とバックエンド開発の学習プロジェクト",
+    image: "https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["Python", "Django", "HTML", "CSS"],
     githubUrl: "https://github.com/Raisei-Ito",
     status: "完成",
     featured: false
   },
   {
-    title: "計算機アプリ",
-    description: "JavaScript の基本文法を学習するために作成した電卓アプリ。四則演算と基本的なUI操作を実装。",
-    image: "https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    title: "会議室予約アプリ",
+    description: "FastAPI,streamlitを使用し,ユーザー認証、予約管理機能を実装した会議室予約システムアプリ",
+    image: "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["Python", "FastAPI", "streamlit", "HTML", "CSS"],
     githubUrl: "https://github.com/Raisei-Ito",
     status: "完成",
     featured: false
@@ -140,11 +140,11 @@ export function Portfolio() {
                 <div className="flex gap-2">
                   <Button 
                     size="sm" 
-                    variant="ghost" 
-                    className="p-2 h-8 w-8"
+                    className="bg-slate-800 hover:bg-slate-900 transition-all duration-300"
                     onClick={() => window.open(project.githubUrl, '_blank')}
                   >
-                    <Github className="h-4 w-4" />
+                    <Github className="mr-2 h-4 w-4" />
+                    GitHub
                   </Button>
                 </div>
               </CardContent>
