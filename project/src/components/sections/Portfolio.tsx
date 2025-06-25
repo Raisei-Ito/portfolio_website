@@ -9,7 +9,7 @@ const projects = [
     description: "AIによるフィードバック付き日記アプリ。感情トレンド分析、カレンダー機能、認証システムを実装したReact+Supabaseアプリケーション",
     image: "https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["React", "Blot.new", "Vite", "Supabase", "Tailwind CSS", "Gemini API"],
-    githubUrl: "https://github.com/Raisei-Ito",
+    githubUrl: "https://github.com/Raisei-Ito/MindJournal_demo",
     status: "開発中",
     featured: true
   },
@@ -18,7 +18,7 @@ const projects = [
     description: "このサイト自体！React + TypeScript + Tailwind CSSで構築した就活用ポートフォリオサイト",
     image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vercel"],
-    githubUrl: "https://github.com/Raisei-Ito",
+    githubUrl: "https://github.com/Raisei-Ito/portfolio_website",
     status: "完成",
     featured: true
   },
@@ -27,7 +27,7 @@ const projects = [
     description: "Djangoを使用したブログアプリケーション。CRUD操作の基本とバックエンド開発の学習プロジェクト",
     image: "https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["Python", "Django", "HTML", "CSS"],
-    githubUrl: "https://github.com/Raisei-Ito",
+    githubUrl: "https://github.com/Raisei-Ito/blogpress-app",
     status: "完成",
     featured: false
   },
@@ -36,7 +36,7 @@ const projects = [
     description: "FastAPI,streamlitを使用し,ユーザー認証、予約管理機能を実装した会議室予約システムアプリ",
     image: "https://images.pexels.com/photos/416405/pexels-photo-416405.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["Python", "FastAPI", "streamlit", "HTML", "CSS"],
-    githubUrl: "https://github.com/Raisei-Ito",
+    githubUrl: "https://github.com/Raisei-Ito/reserve_room",
     status: "完成",
     featured: false
   }

@@ -1,4 +1,4 @@
-import { Mail, Github } from 'lucide-react';
+import { Mail, Github, BookOpen } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
@@ -16,6 +16,13 @@ const contactMethods = [
     value: "github.com/Raisei-Ito",
     href: "https://github.com/Raisei-Ito",
     color: "from-gray-700 to-gray-900"
+  },
+  {
+    icon: BookOpen,
+    label: "Qiita",
+    value: "qiita.com/raisei",
+    href: "https://qiita.com/raisei",
+    color: "from-green-500 to-emerald-600"
   }
 ];
 
@@ -34,7 +41,7 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {contactMethods.map((method, index) => (
             <Card key={index} className="group bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
               <CardContent className="p-6">
