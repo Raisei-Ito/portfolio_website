@@ -1,6 +1,12 @@
 # ポートフォリオサイト
 就活などで使用するためのポートフォリオを作成した。このREADME.mdではどのように作成したかを記述してある。
 
+## 🌐 デプロイサイト
+
+**Live Demo**: [https://raisei-ito-portfolio.vercel.app/](https://raisei-ito-portfolio.vercel.app/)
+
+本サイトはVercelを使用してデプロイされており、上記URLから実際のポートフォリオサイトをご覧いただけます。
+
 ## 🌟 サイト概要
 
 このポートフォリオサイトは、React + TypeScript + Tailwind CSSで構築された現代的なシングルページアプリケーション（SPA）です。
@@ -21,6 +27,7 @@
 ### 開発・デプロイ
 - **ESLint** - コード品質の維持
 - **PostCSS** - CSS処理
+- **Vercel** - 高速なデプロイプラットフォーム
 
 ## 📁 プロジェクト構造
 
@@ -90,3 +97,11 @@ npm run preview
 - **メール**: cok14667@ict.nitech.ac.jp
 - **GitHub**: [https://github.com/Raisei-Ito](https://github.com/Raisei-Ito)
 - **Qiita**: [https://qiita.com/raisei](https://qiita.com/raisei)
+
+## 📝 変更履歴
+
+### 2024年12月19日
+- **モバイルナビゲーションのUI改善**
+  - スマートフォン表示時のナビゲーションメニューのテキスト色を青色から白色に変更
+  - 背景色を白色から黒色に変更してコントラストを向上
+  - ホバー効果も調整し、ユーザビリティを向上
