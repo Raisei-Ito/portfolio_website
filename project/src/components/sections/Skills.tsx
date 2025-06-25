@@ -12,7 +12,7 @@ const skillCategories = [
   {
     title: "バックエンド",
     icon: Server,
-    skills: ["Node.js", "Python", "FastAPI", "Django"],
+    skills: ["Python", "FastAPI", "Django"],
     color: "from-green-500 to-emerald-500",
     level: "学習中"
   },
@@ -21,28 +21,28 @@ const skillCategories = [
     icon: Database,
     skills: ["MySQL", "SQLite", "SQLAlchemy", "PostgreSQL"],
     color: "from-orange-500 to-red-500",
-    level: "基礎"
+    level: "学習中"
   },
   {
     title: "開発ツール",
     icon: Code,
     skills: ["GitHub", "VS Code", "Cursor", "Bolt.new", "Docker"],
     color: "from-slate-500 to-gray-500",
-    level: "学習中"
+    level: "使用中"
   },
   {
     title: "学術・研究",
     icon: Brain,
-    skills: ["因果推論", "LLM", "知能ロボット"],
+    skills: ["因果推論", "LLM", "RAG", "RNN", "GRU", "知能ロボット"],
     color: "from-indigo-500 to-purple-500",
     level: "大学院"
   },
   {
     title: "その他",
     icon: Smartphone,
-    skills: ["デザインパターン", "OOP"],
+    skills: ["Go", "デザインパターン", "OOP", "オペレーティングシステム"],
     color: "from-purple-500 to-pink-500",
-    level: "学習中"
+    level: "学習予定"
   }
 ];
 

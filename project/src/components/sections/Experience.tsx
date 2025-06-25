@@ -9,7 +9,7 @@ const experiences = [
     description: [
       "マインドフルネス日記アプリの個人開発プロジェクト",
       "React 18・TypeScript・Viteを使用したフロントエンド構築",
-      "Supabase・PostgreSQLによるバックエンド・データベース設計",
+      "Supabaseによるバックエンド・データベース設計",
       "感情トレンド分析・カレンダー機能・認証システムの実装"
     ],
     technologies: ["React", "TypeScript", "Vite", "Supabase", "PostgreSQL", "Tailwind CSS"],
@@ -18,9 +18,9 @@ const experiences = [
   },
   {
     title: "Web開発学習開始",
-    period: "2025年5月 - 現在",
+    period: "2025年5月",
     description: [
-      "HTML/CSS/JavaScript,Pythonの基礎から学習開始",
+      "バックエンドの基礎から学習開始",
       "Django,FastAPIを使用した簡単なWebアプリケーションの開発",
       "ブログアプリや会議室予約アプリの開発"
     ],
@@ -37,7 +37,7 @@ const experiences = [
       "研究活動を通じた問題解決能力の向上",
       "学術論文の読解と研究手法の習得"
     ],
-    technologies: ["Python", "機械学習", "データ解析", "研究手法"],
+    technologies: ["Python", "機械学習", "強化学習", "知能ロボット"],
     type: "学業",
     icon: GraduationCap
   },

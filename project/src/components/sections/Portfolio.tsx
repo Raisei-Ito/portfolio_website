@@ -8,7 +8,7 @@ const projects = [
     title: "Mind Journal",
     description: "AIによるフィードバック付き日記アプリ。感情トレンド分析、カレンダー機能、認証システムを実装したReact+Supabaseアプリケーション",
     image: "https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["React", "TypeScript", "Vite", "Supabase", "Tailwind CSS", "Gemini API"],
+    technologies: ["React", "Blot.new", "Vite", "Supabase", "Tailwind CSS", "Gemini API"],
     githubUrl: "https://github.com/Raisei-Ito",
     status: "開発中",
     featured: true

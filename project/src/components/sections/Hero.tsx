@@ -9,7 +9,7 @@ export function Hero() {
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4">
             ポートフォリオサイト
           </h1>
-          <p className="text-xl md:text-2xl text-slate-600 mb-2">Web開発者志望</p>
+          {/* <p className="text-xl md:text-2xl text-slate-600 mb-2">Web開発者志望</p> */}
           <p className="text-lg md:text-xl text-slate-500 font-medium">
             「学び続け、技術で価値を創造する」
           </p>
