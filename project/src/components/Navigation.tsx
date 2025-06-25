@@ -72,13 +72,13 @@ export function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden bg-white/95 backdrop-blur-sm border-t border-slate-200">
+          <div className="md:hidden bg-black/95 backdrop-blur-sm border-t border-gray-800">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
                 <button
                   key={item.href}
                   onClick={() => scrollToSection(item.href)}
-                  className="block w-full text-left px-3 py-2 text-slate-600 hover:text-blue-600 hover:bg-blue-50 rounded-md transition-colors"
+                  className="block w-full text-left px-3 py-2 text-white hover:text-gray-300 hover:bg-gray-800 rounded-md transition-colors"
                 >
                   {item.label}
                 </button>
