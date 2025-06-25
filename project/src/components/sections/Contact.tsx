@@ -43,26 +43,29 @@ export function Contact() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {contactMethods.map((method, index) => (
-            <Card key={index} className="group bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
-              <CardContent className="p-6">
-                <div className="flex items-center space-x-4">
-                  <div className={`w-12 h-12 rounded-full bg-gradient-to-r ${method.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
-                    <method.icon className="h-6 w-6 text-white" />
+            <a
+              key={index}
+              href={method.href}
+              target={method.href.startsWith('http') ? '_blank' : undefined}
+              rel={method.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+              className="block"
+            >
+              <Card className="group bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-6">
+                  <div className="flex items-center space-x-4">
+                    <div className={`w-12 h-12 rounded-full bg-gradient-to-r ${method.color} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                      <method.icon className="h-6 w-6 text-white" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-white mb-1">{method.label}</h3>
+                      <p className="text-slate-300 group-hover:text-blue-400 transition-colors duration-300 break-all">
+                        {method.value}
+                      </p>
+                    </div>
                   </div>
-                  <div className="flex-1">
-                    <h3 className="font-semibold text-white mb-1">{method.label}</h3>
-                    <a 
-                      href={method.href}
-                      className="text-slate-300 hover:text-blue-400 transition-colors duration-300 break-all"
-                      target={method.href.startsWith('http') ? '_blank' : undefined}
-                      rel={method.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                    >
-                      {method.value}
-                    </a>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            </a>
           ))}
         </div>
 

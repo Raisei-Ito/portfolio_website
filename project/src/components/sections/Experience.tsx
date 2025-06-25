@@ -33,9 +33,8 @@ const experiences = [
     period: "2025年4月 - 現在",
     description: [
       "修士1年として知能情報分野の研究に従事",
-      "機械学習・データ解析の理論と実践を学習",
-      "研究活動を通じた問題解決能力の向上",
-      "学術論文の読解と研究手法の習得"
+      "強化学習(因果推論)を用いた知能ロボットの研究",
+      "研究活動を通じた問題解決能力の向上"
     ],
     technologies: ["Python", "機械学習", "強化学習", "知能ロボット"],
     type: "学業",
@@ -46,11 +45,11 @@ const experiences = [
     period: "2021年4月 - 2025年3月",
     description: [
       "プログラミング基礎（C,C++,Python等）の習得",
-      "卒業研究を通じた研究活動の経験",
-      "学術論文の読解と研究手法の習得",
-
+      "卒業研究を通じた画像認識・機械学習の経験",
+      "ROSなどのロボットシステムの経験",
+      "ロボットの経路計画・制御の経験"
     ],
-    technologies: ["C言語", "Python", "機械学習", "ロボットの経路計画", "ロボットの制御"],
+    technologies: ["C言語", "Python", "機械学習", "ロボットシステム", "ロボットの経路計画", "ロボットの制御"],
     type: "学業",
     icon: BookOpen
   }
@@ -126,8 +125,8 @@ export function Experience() {
           <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-slate-800 mb-4">今後の目標</h3>
             <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed">
-              2027年修了予定で、現在は就職活動と並行してWeb開発スキルの向上に取り組んでいます。
-              自社開発を行う企業で、ユーザーに価値を提供するプロダクト開発に携わることを目標としています。
+              2027年修了予定で、現在は就職活動と並行してWeb開発スキルの向上に取り組んでいます。<br />
+              新卒で自社開発を行う企業に就職し、プロダクト開発に携わることを目標としています。
             </p>
           </div>
         </div>

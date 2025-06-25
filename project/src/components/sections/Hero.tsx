@@ -120,7 +120,7 @@ export function Hero() {
             <p className="text-lg md:text-xl text-slate-700 leading-relaxed">
               CS専攻の修士1年の<span className="text-blue-600 font-semibold">伊藤来晟</span>のポートフォリオサイトになります。<br />
               2025年5月から技術学習をスタートし、趣味でWeb開発に取り組んでいます。<br />
-              <span className="text-purple-600 font-medium">自社開発を行う企業で、ユーザーに価値を提供するプロダクト開発に携わりたいと考えています。</span>
+              <span className="text-purple-600 font-medium">自社開発を行う企業で、社会に価値を提供するアプリ開発に携わりたいと考えています。</span>
             </p>
           </div>
         </div>

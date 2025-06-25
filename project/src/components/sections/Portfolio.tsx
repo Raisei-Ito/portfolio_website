@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -156,8 +156,7 @@ export function Portfolio() {
           <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-slate-800 mb-4">今後の開発予定</h3>
             <p className="text-slate-600 max-w-2xl mx-auto leading-relaxed mb-6">
-              現在はバックエンドの基礎を勉強しており、
-              より複雑なWebアプリケーションの開発に挑戦していく予定です。
+            今後はGoなどのモダンな技術を活用したWebアプリケーション開発に加え、React NativeやFlutterを用いたモバイルアプリ開発にも挑戦し、スキル向上を目指していきます。
             </p>
             <Button 
               className="bg-blue-600 hover:bg-blue-700"
