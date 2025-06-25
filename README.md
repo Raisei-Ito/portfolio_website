@@ -1,6 +1,5 @@
-# 伊藤来晟 ポートフォリオサイト
-
-CS専攻修士1年の伊藤来晟のポートフォリオサイトです。2025年5月から技術学習をスタートし、趣味でWeb開発に取り組んでいます。
+# ポートフォリオサイト
+就活などで使用するためのポートフォリオを作成した。このREADME.mdではどのように作成したかを記述してある。
 
 ## 🌟 サイト概要
 
@@ -91,7 +90,3 @@ npm run preview
 - **メール**: cok14667@ict.nitech.ac.jp
 - **GitHub**: [https://github.com/Raisei-Ito](https://github.com/Raisei-Ito)
 - **Qiita**: [https://qiita.com/raisei](https://qiita.com/raisei)
-
----
-
-**© 2024 伊藤来晟 Portfolio. Built with React + TypeScript + Tailwind CSS** 
